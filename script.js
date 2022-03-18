@@ -1,3 +1,6 @@
+const imageContainer = doucment.getElementById("image-container");
+const loader = document.getElementById("loader");
+
 
 // Unsplash API
 const count = 10;
