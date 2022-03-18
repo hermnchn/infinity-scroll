@@ -1,12 +1,12 @@
-const imageContainer = doucment.getElementById("image-container");
-const loader = document.getElementById("loader");
+const imageContainer = doucment.getElementById('image-container');
+const loader = document.getElementById('loader');
 
 let photosArray = [];
 
 // Unsplash API
 const count = 10;
-const apiKey = "ztwGKXCCnXKMSDt-1u_tXIzNZ3XF6mIYALdeLXx6FVA";
-const apiUrl = "https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}";
+const apiKey = 'ztwGKXCCnXKMSDt-1u_tXIzNZ3XF6mIYALdeLXx6FVA';
+const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
 // Helper Function to Set Attributes on DOM Elements
 function setAttributes(element, attributes) {
